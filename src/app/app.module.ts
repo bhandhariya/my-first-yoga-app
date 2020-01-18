@@ -13,6 +13,12 @@ import { BanefitComponent } from './home/banefit/banefit.component';
 import { TestimonialComponent } from './home/testimonial/testimonial.component';
 import { NewsComponent } from './home/news/news.component';
 import { FooterComponent } from './home/footer/footer.component';
+import { AboutUsComponent } from './about-us/about-us.component';
+import { ServiceComponent } from './service/service.component';
+import { BlogComponent } from './blog/blog.component';
+import { ContactComponent } from './contact/contact.component';
+import { AboutHeadComponent } from './about-us/about-head/about-head.component';
+import { IntroComponent } from './about-us/intro/intro.component';
 
 @NgModule({
   declarations: [
@@ -26,7 +32,13 @@ import { FooterComponent } from './home/footer/footer.component';
     BanefitComponent,
     TestimonialComponent,
     NewsComponent,
-    FooterComponent
+    FooterComponent,
+    AboutUsComponent,
+    ServiceComponent,
+    BlogComponent,
+    ContactComponent,
+    AboutHeadComponent,
+    IntroComponent
   ],
   imports: [
     BrowserModule,

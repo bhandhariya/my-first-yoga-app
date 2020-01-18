@@ -6,11 +6,11 @@
                     <div class="logo">Aerobics<span>Fit</span></div>
                     <nav class="main_nav">
                         <ul class="d-flex flex-row align-items-center justify-content-start">
-                            <li class="active"><a href="index.html">Home</a></li>
-                            <li><a href="about.html">About us</a></li>
-                            <li><a href="services.html">Services</a></li>
-                            <li><a href="blog.html">News</a></li>
-                            <li><a href="contact.html">Contact</a></li>
+                            <li ><a   >Home</a></li>
+                            <li><a [routerLink]="['/aboutus']"  >About us</a></li>
+                            <li><a [routerLink]="['/service']" routerLinkActive="router-link-active" >Services</a></li>
+                            <li><a [routerLink]="['/blog']" routerLinkActive="router-link-active" >Blog</a></li>
+                            <li><a [routerLink]="['/contact']" routerLinkActive="router-link-active" >Contact</a></li>
                         </ul>
                     </nav>
                     <div class="join_button ml-auto"><a href="#">Join Now!</a></div>
